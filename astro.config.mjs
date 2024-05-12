@@ -1,10 +1,15 @@
-import { defineConfig } from 'astro/config'
-import tailwind from "@astrojs/tailwind"
+import { defineConfig } from 'astro/config';
+import tailwind from "@astrojs/tailwind";
+import robotsTxt from "astro-robots-txt";
 
-import robotsTxt from "astro-robots-txt"
+import node from "@astrojs/node";
 
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind(), robotsTxt()],
-  site: 'https://porfolio.dev/'
-})
+  site: 'https://dev.wxbolab.com/',
+  output: "server",
+  adapter: node({
+    mode: "standalone"
+  })
+});

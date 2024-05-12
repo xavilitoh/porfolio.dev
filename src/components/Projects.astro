@@ -1,11 +1,17 @@
 ---
 import GitHub from "./icons/GitHub.astro"
+import Flutter from "./icons/Flutter.astro"
 import NextJS from "./icons/NextJS.astro"
 import Tailwind from "./icons/Tailwind.astro"
 import Link from "./icons/Link.astro"
 import LinkButton from "./LinkButton.astro"
 
 const TAGS = {
+  FLUTTER: {
+    name: "Flutter",
+    class: "bg-black text-white",
+    icon: Flutter,
+  },
   NEXT: {
     name: "Next.js",
     class: "bg-black text-white",
@@ -19,22 +25,21 @@ const TAGS = {
 }
 const PROJECTS = [
   {
-    title: "SVGL - A beautiful library with SVG logos",
+    title: "FLUTTERDEX - POKEDEX",
     description:
-      "Biblioteca de logos SVG de las marcas más populares. +10k visitas al mes. +2K svgs descargados. Creado desde cero con Next.js, React y Tailwind CSS.",
-    link: "https://svgl.vercel.app/",
-    github: "https://github.com/pheralb/svgl",
-    image: "/projects/svgl.webp",
-    tags: [TAGS.NEXT, TAGS.TAILWIND],
+      "Una enciclopedia digital de Pokémon que clasifica a los Pokémon en función de sus habilidades, movimiento y poder. El diseño de la aplicación se basa en la aplicación Pokédex diseñada por Saepul Nahwan",
+    link: "https://dex.wxbolab.com/",
+    github: "https://github.com/xavilitoh/pokedex",
+    image: "/projects/dex.png",
+    tags: [TAGS.FLUTTER],
   },
   {
-    title: "AdventJS - Retos de programación con JavaScript y TypeScript",
+    title: "Elokuents App",
     description:
-      "Plataforma gratuita con retos de programación. Más de 1 millón de visitas en un mes. +50K retos completados. Creada desde cero con Next.js, React y Tailwind CSS.",
-    link: "https://adventjs.dev",
-    image: "/projects/adventjs.webp",
-    tags: [TAGS.NEXT, TAGS.TAILWIND],
-  },
+      "Elokuents es una aplicacion del lado del cliente en la cual se pueden realizar compras de paquetes de internet y asignarlos a diferentes dispositivos.",
+    image: "/projects/ElokuentsApp.png",
+    tags: [TAGS.FLUTTER],
+  }
 ]
 ---
 
