@@ -1,0 +1,30 @@
+[
+    {
+        "id": "Proxmox-manager",
+        "nombre": "Proxmox Manager",
+        "descripcion": "App para gestionar tu infraestructura Proxmox sin recopilar datos personales.",
+        "politica": [
+            {
+                "html": "<strong>Privacidad:</strong> Esta app no recopila datos personales."
+            },
+            {
+                "html": "Solo se utiliza para cálculos matemáticos y <em>no almacena información</em> del usuario."
+            },
+            {
+                "html": "<strong>Permisos:</strong> La app solicita únicamente los permisos necesarios para conectarse a tu servidor Proxmox."
+            },
+            {
+                "html": "<strong>Conexión segura:</strong> Toda la comunicación con el servidor se realiza mediante protocolos seguros (HTTPS o SSH)."
+            },
+            {
+                "html": "<strong>Sin publicidad:</strong> Esta app no muestra anuncios ni utiliza rastreadores de terceros."
+            },
+            {
+                "html": "<strong>Sin almacenamiento externo:</strong> No se almacena información en servidores externos ni se comparte con terceros."
+            },
+            {
+                "html": "<strong>Actualizaciones:</strong> Las actualizaciones de la app pueden incluir mejoras de seguridad y funcionalidad, pero nunca afectarán la privacidad del usuario."
+            }
+        ]
+    }
+]

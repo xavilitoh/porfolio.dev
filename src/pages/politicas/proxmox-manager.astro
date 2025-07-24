@@ -1,0 +1,61 @@
+---
+import apps from "../../data/apps.json";
+import Layout from "../../layouts/Layout.astro";
+---
+
+<Layout
+    title={"Política de Privacidad"}
+    description="App para gestionar tu infraestructura Proxmox sin recopilar datos personales"
+>
+    <title>Proxmox Manager - Política de Privacidad</title>
+    <div
+        class="min-h-screen w-full bg-gradient-to-br from-blue-100 via-purple-100 to-pink-100 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 flex flex-col items-center justify-center px-4"
+    >
+        <div class="max-w-xl w-full mx-auto py-16">
+            <div
+                class="rounded-2xl bg-white dark:bg-gray-950 shadow-xl border border-gray-200 dark:border-gray-800 p-10"
+            >
+                <h1
+                    class="text-4xl font-extrabold mb-4 text-gray-900 dark:text-white drop-shadow-lg text-center"
+                >
+                    Proxmox Manager
+                </h1>
+                <p
+                    class="text-lg text-gray-600 dark:text-gray-300 mb-6 text-center"
+                >
+                    App para gestionar tu infraestructura Proxmox sin recopilar
+                    datos personales
+                </p>
+                <h2
+                    class="text-xl font-bold mb-2 text-blue-600 dark:text-blue-400 text-center"
+                >
+                    Política de Privacidad
+                </h2>
+                <div class="flex flex-col gap-4 mb-6">
+                    <p
+                        class="text-base text-gray-700 dark:text-gray-200 text-center"
+                    >
+                        Esta aplicación no recopila ni almacena datos personales
+                        de los usuarios. Toda la información se maneja de forma
+                        local en tu dispositivo y no se envía a ningún servidor.
+                    </p>
+                    <p
+                        class="text-base text-gray-700 dark:text-gray-200 text-center"
+                    >
+                        Esta aplicación no recopila ni almacena datos personales
+                        de los usuarios. Toda la información se maneja de forma
+                        local en tu dispositivo y no se envía a ningún servidor.
+                    </p>
+                </div>
+                <a
+                    href="/"
+                    class="block mx-auto w-fit px-6 py-2 rounded-lg bg-gradient-to-r from-blue-500 to-purple-500 text-white font-semibold shadow hover:from-blue-600 hover:to-purple-600 transition"
+                    >Volver al inicio</a
+                >
+            </div>
+        </div>
+        <footer class="mt-10 text-center text-gray-400 text-sm">
+            &copy; {new Date().getFullYear()} Xavier Berroa
+        </footer>
+    </div>
+</Layout>
